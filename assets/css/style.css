@@ -4,6 +4,8 @@
     --header-yuxari-reng: #0a111f;
     --header-asagi-reng: #0b121f;
     --header-btn-rengi: #3a68b8;
+    --hero-yuxari-reng: #08101d;
+    --hero-asagi-reng: #09111E;
 }
 
 * {
@@ -83,6 +85,64 @@ header img {
    width: 240px;
 }
 
+/* Hero Start */
+
+.hero-section {
+    background:linear-gradient(to bottom,var(--hero-yuxari-reng),var(--hero-asagi-reng));
+    color: #fff;
+    padding: 40px 0px;
+}
+
+
+.hero .hero-left h6 {
+    text-transform: uppercase;
+    color: #3a68b8
+}
+
+.hero .hero-left h2 {
+    font-size: 30px;
+    margin: 20px 0px 40px;
+    font-weight: 700;
+    
+}
+
+.hero .hero-left p {
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, .7);
+    line-height: 25.6px;
+    
+}
+
+.hero .buttonlar button {
+    background-color: var(--header-btn-rengi);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: #fff;
+}
+
+.hero .buttonlar button img {
+    width: 11px;
+    margin-right: 10px;
+    
+}
+
+/* Hero End */
+
+/* Companies start */
+.companies {
+    background-color: #09111e;
+}
+
+.mySwiper img {
+    height: 60px;
+    width: 200px;;
+}
+/* Companies end */
+
+
+
+
 
 
 @media(min-width:768px) {
@@ -96,4 +156,18 @@ header img {
     header img {
         width: 180px;
     }
+}
+
+@media(min-width:992px) {
+    .hero-left h2 {
+        font-size: 46px !important;
+       }
+       .hero-left {
+        padding: 160px 0px;
+       }
+    
+       .hero-right {
+        padding: 40px 0px;
+       }
+    /* hero end */
 }

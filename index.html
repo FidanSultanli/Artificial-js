@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!--Bootstrap-->
+     <!-- Karuselin baglanti linki  -->
+     <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+   />
+     <!-- Karuselin baglanti linki  -->
+    
+    <!--Bootstrap-->
      <link rel="stylesheet" href="./assets/css/komekci.min.css">
      <!--Bootstrap-->
      <!--Font-awesome -->
@@ -34,7 +41,7 @@
     <div class="container">
         <div class="header d-md-flex justify-content-md-between align-items-md-center">
             <i class="fa-solid d-md-none fa-bars-staggered text-white me-4 "></i>
-            <img src="./assets/images/hero/logo.svg" alt="">
+            <img src="./assets/images/header/logo.svg" alt="">
             <nav class="nav-links d-none d-md-flex">
                 <a href="">Home</a>
                 <a href="">About</a>
@@ -44,7 +51,8 @@
             </nav>
 
             
-            <button class="d-none d-md-block">Sign in</button>
+            <button class="d-none d-md-block openModalBtn">Sign in</button>
+            
         </div>
     </div>
 </header>
@@ -52,7 +60,54 @@
 
 <!-- header end -->
 
+<!-- hero start -->
+<section class="hero-section">
+    <div class="container hero">
+        <div class="row">
+            <div class="hero-left col-12 col-md-6">
+                <h6>Next generetion platform</h6>
+                <h2>Artificial intelligence & Cyber security</h2>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                <div class="buttonlar">
+                    <button>Get Started</button>
+                    <button><img src="./assets/images/hero/hero-play.svg" alt="">Watch Started</button>
+                </div>
+            
+            </div>
+            
+            <div class="hero-right col-12 col-md-6">
+                <img src="./assets/images/hero/hero.svg" alt="" class="w-100">
+            
+            </div>
+        </div>
+      
+    </div>
+    </section>
+    <!-- hero end -->
 
+    <!-- Companies Start -->
+     <section class="companies py-5">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./assets/images/companies/company-1.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/images/companies/company-2.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/images/companies/company-3.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/images/companies/company-4.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/images/companies/company-1.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/images/companies/company-2.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/images/companies/company-3.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/images/companies/company-4.svg" alt=""></div>
+                </div>
+
+            </div>
+        </div>
+     </section>
+    <!-- Companies End -->
+
+
+    <skript src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js "> </script> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="./assets/js/script.js"></script>
 </body>
 
